@@ -77,10 +77,10 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - ADMIN
   * - **Prism Element Web**
     - admin
-    - ntnx4Team!
+    - ntnx4SVA!
   * - **Prism Element SSH**
     - nutanix
-    - ntnx4Team!
+    - ntnx4SVA!
   * - **Prism Central Web**
     - admin
     - ntnx4Team!
