@@ -83,7 +83,7 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - ntnx4SVA!
   * - **Prism Central Web**
     - admin
-    - ntnx4Team!
+    - ntnx4SVA!
   * - **Prism Central SSH**
     - nutanix
     - nutanix/4u
