@@ -27,21 +27,21 @@ Infrastruktur IPs
      - Hypervisors
      - IPMI
    * - **Position A**
-     - 10.42.75.29
-     - 10.42.75.25
-     - 10.42.75.33
+     - 10.38.204.29
+     - 10.38.204.25
+     - 10.38.204.33
    * - **Position B**
-     - 10.42.75.30
-     - 10.42.75.26
-     - 10.42.75.34
+     - 10.38.204.30
+     - 10.38.204.26
+     - 10.38.204.34
    * - **Position C**
-     - 10.42.75.31
-     - 10.42.75.27
-     - 10.42.75.35
+     - 10.38.204.31
+     - 10.38.204.27
+     - 10.38.204.35
    * - **Position D**
-     - 10.42.75.32
-     - 10.42.75.28
-     - 10.42.75.36
+     - 10.38.204.32
+     - 10.38.204.28
+     - 10.38.204.36
 
 
 .. list-table::
@@ -51,13 +51,13 @@ Infrastruktur IPs
   * - Services
     - IP-Adressen
   * - **Cluster virtual IP**
-    - 10.42.75.37
+    - 10.38.204.37
   * - **iSCSI Data Services IP**
-    - 10.42.75.38
+    - 10.38.204.38
   * - **Prism Central**
-    - 10.42.75.39
-  * - **ERA VM IP**
-    - 10.42.75.22
+    - 10.38.204.39
+  * - **Mine Foundation VM**
+    - 10.38.204.105:8743
 
 
 Zugangsdaten
@@ -93,9 +93,9 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
   * - **CentOS VM Image**
     - root
     - nutanix/4u
-  * - **ERA**
-    - nutanix
-    - nutanix/4u
+  * - **Mine**
+    - veeam
+    - veeam
 
 
 Darüber hinaus besitzt der Cluster eine dedizierte Domain-Controller-VM, welche die Active-Directory-Services für die **NTNXLAB.local** Domain bereitstellt. Die Domain wurde mit den folgenden Nutzern und Gruppen vorkonfiguriert:
@@ -143,25 +143,25 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - **Sekundäres** Netzwerk
    * - **VLAN**
      - 0
-     - 751
+     - 2043
    * - **Netzwerk IP Adresse**
-     - 10.42.75.0
-     - 10.42.75.128
+     - 10.38.204.0
+     - 10.38.204.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.75.1
-     - 10.42.75.129
+     - 10.38.204.1
+     - 10.38.204.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.75.50  - 125
-     - 10.42.75.132 - 219
+     - 10.38.204.50  - 125
+     - 10.38.204.132 - 219
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.75.41 (DC VM)
-     - 10.42.75.41 (DC VM)
+     - 10.38.204.41 (DC VM)
+     - 10.38.204.41 (DC VM)
